@@ -1,10 +1,9 @@
-na me: Config
+name: Config
 description: Silly test
 body:
   - type: markdown
     attributes:
-      value: |
-        Here you can change the config
+      value: Here you can change the config
   - type: textarea
     id: message
     attributes:
