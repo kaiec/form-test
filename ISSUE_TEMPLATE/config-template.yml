@@ -1,0 +1,25 @@
+name: Config
+description: Silly test
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Here you can change the config
+  - type: textarea
+    id: message
+    attributes:
+      label: Message
+      description: Current Status Message
+    validations:
+      required: false
+  - type: dropdown
+    id: active
+    attributes:
+      label: Active
+      description: Activate or deactivate it!
+      options:
+        - Activated
+        - Deactivated
+      default: 0
+    validations:
+      required: true
